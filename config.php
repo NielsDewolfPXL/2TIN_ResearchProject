@@ -11,7 +11,7 @@
 
     $host = 'database-1.c1nxcud0u6wb.us-east-1.rds.amazonaws.com';
     $user = 'groep7';
-    $pass = 'R,Oalx:ZQ.0P';
+    $pass = 'wachtzin';
     $db_name = 'dbgroup7';
     
     $conn = new mysqli($host, $user, $pass, $db_name);
