@@ -1,5 +1,5 @@
 <?php
-    //require('vendor/autoload.php');
+    require('vendor/autoload.php');
     // Define mysql server settings
     //$serverName = "database-1.c1nxcud0u6wb.us-east-1.rds.amazonaws.com";
     //$username = "groep7";
