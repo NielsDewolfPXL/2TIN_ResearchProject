@@ -28,12 +28,16 @@
         $images = array("fjords.jpg", 
                         "lights.jpg", 
                         "nature.jpg");
-        foreach($images as $key => $image){
-            if (!in_array($image,array(".",".."))){
+        //foreach($images as $key => $image){
+            //if (!in_array($image,array(".",".."))){
                 // First item needs to get the active css class. Otherwise the carousel will not show
-                echo ($key == 2) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
+                //echo ($key == 2) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
+                //echo "<img class='d-block w-100' src='https://cloudgroup7.s3.amazonaws.com/assets/images/$image'/></div>";
+            //}     
+        //}
+        foreach($images as $key => $img){
+                echo ($key == 0) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
                 echo "<img class='d-block w-100' src='https://cloudgroup7.s3.amazonaws.com/assets/images/$image'/></div>";
-            }     
         }
     ?>
   </div>
