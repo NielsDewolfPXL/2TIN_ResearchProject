@@ -36,8 +36,10 @@
             //}     
         //}
         foreach($images as $key => $img){
-                echo ($key == 0) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
+            if (!in_array($image,array("0","1"))){
+                echo ($key == 2) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
                 echo "<img class='d-block w-100' src='https://cloudgroup7.s3.amazonaws.com/assets/images/$img'/></div>";
+                }
         }
       ?>
        
