@@ -17,6 +17,7 @@
                     <a class="nav-item nav-link" href="add.php">Add employee</a>
                 </div>
             </div>
+            <p><?php print $_SERVER['SERVER_ADDR']; ?></p>
         </nav>
         
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
