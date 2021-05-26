@@ -15,7 +15,7 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="index.php">Home</a>
                     <a class="nav-item nav-link" href="add.php">Add employee</a>
-                    <a><?php print $_SERVER['SERVER_ADDR']; ?></a>
+                    <a><?php print $_SERVER['SERVER_ADDR']; ?></a> test 26/05 14:32
                 </div>
             </div>
         </nav>
